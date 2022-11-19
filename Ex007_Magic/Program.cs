@@ -43,5 +43,5 @@ if(what == 2)
     Console.SetCursorPosition(x, y);
     Console.WriteLine("+");
     
-    count = count + 1; // count++ или count +=1
+count = count + 1; // count++ или count +=1
 }
