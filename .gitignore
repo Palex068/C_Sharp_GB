@@ -3,6 +3,8 @@ Ignore Visual Studio temporary files, build results, and
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+##My
+.DS_Store
 # User-specific files
 *.rsuser
 *.suo
