@@ -1,7 +1,7 @@
 ﻿
 Console.Clear();
 
-void FillArray(int[] collection)
+void FillArray(int[] collection)  // создаем Метод заполнение массива псевдослучайными числами
 {
     int Length = collection.Length;
     int index = 0;
@@ -12,7 +12,7 @@ void FillArray(int[] collection)
     }
 }
 
-void PrintArray(int[] col)
+void PrintArray(int[] col) // создаем Метод печати массива
 {
     int count = col.Length;
     int position = 0;
@@ -23,7 +23,7 @@ void PrintArray(int[] col)
     }
 }
 
-int IndexOf(int[] collection, int find)
+int IndexOf(int[] collection, int find) // создаем Метод поиска индекса числа в массиве
 {
     int count = collection.Length;
     int index = 0;
@@ -41,14 +41,14 @@ int IndexOf(int[] collection, int find)
     return position;
 }
 
-int[] array = new int[10];
+int[] array = new int[20];
 
 FillArray(array);
 PrintArray(array);
 
 Console.WriteLine();
 
-int pos = IndexOf(array, 10);
+int pos = IndexOf(array, 1); // Запускаем поиск индекса искомого элемента
 Console.WriteLine(pos);
 
 Console.WriteLine();
